@@ -1,0 +1,7 @@
+.div{
+    border: 2px dashed ;
+    justify-content: baseline;
+    display: inline-block;
+   
+    background-color: rgb(91, 158, 224)
+}

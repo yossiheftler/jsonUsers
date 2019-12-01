@@ -1,0 +1,9 @@
+<app-navi *ngIf="locationSvc.CurrentLocation != 'login'" ></app-navi>
+
+<app-login *ngIf="locationSvc.CurrentLocation == 'login'"></app-login>
+
+<app-users *ngIf="locationSvc.CurrentLocation == 'users'"></app-users>
+<app-home-page *ngIf="locationSvc.CurrentLocation == 'homepage'"></app-home-page>
+<app-posts *ngIf="locationSvc.CurrentLocation == 'posts'"></app-posts>
+<app-todos *ngIf="locationSvc.CurrentLocation == 'todos'"></app-todos>
+<app-album *ngIf="locationSvc.CurrentLocation == 'albums'"></app-album>

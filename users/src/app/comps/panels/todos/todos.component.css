@@ -1,0 +1,8 @@
+.stat{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: rgb(0, 60, 128);
+}
+.stat.w8{background: rgb(226, 21, 233);}
+.shhh{opacity:0.5;} 

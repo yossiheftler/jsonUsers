@@ -1,0 +1,56 @@
+.p{
+    background-color: lemonchiffon ;
+    border: 1px dashed;
+    display: flex;
+   
+   /* padding: 5%; */
+   margin: 2%;
+    
+}
+
+.active {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ 
+  .active {
+    background-color: #4CAF50;
+  }
+ 
+  .wrapperphoto{
+    height: 500px;padding: 100px 0;border: 5px solid;border-color: rgb(77, 165, 248);width: 100%;
+  }
+  .wrapperphoto >ul{
+    position: relative;
+  }
+  .liOne{
+    position: absolute;
+    top: 0%;
+    left:-100%;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    transition: left 2s;
+  }
+  .liOne.show {left: 0;height: 250px;}
+  img {width: 100%;max-height: 250px; position: absolute;}
+
+
+

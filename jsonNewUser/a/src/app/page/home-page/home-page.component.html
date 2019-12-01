@@ -1,0 +1,25 @@
+<div class="wrapperphoto">
+        <ul>
+                <li  *ngFor="let o of album" class="liOne"> 
+                        <img [src]="o.url">
+                </li>
+        </ul>
+</div>
+
+
+
+
+
+<ul>
+                <li class="p" *ngFor="let b of post">
+                    {{b.id}} - {{b.body}}
+                    <ul>
+                        <li *ngFor="let c of b.comments">
+                            <div>{{c.name}}</div>
+                            <div>{{c.email}}</div>
+                            <div>{{c.body}}</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
